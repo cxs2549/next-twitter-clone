@@ -4,9 +4,14 @@ import { CiLocationOn } from "react-icons/ci"
 import { BsLink45Deg, BsCalendar4Week } from "react-icons/bs"
 const MainArea = () => {
   return (
-    <div id="mainContainer" className=" w-full md:max-w-[600px] xs:border-l border-gray-100 lg:border-r lg:min-w-[600px] h-[1000px]">
-
-      <div id="backName" className="z-20 pt-1 pb-1 bg-white/75 backdrop-blur-md  h-[53px] flex gap-7 left-0 items-center pl-4">
+    <div
+      id="mainContainer"
+      className=" w-full md:max-w-[600px] xs:border-l border-gray-100 lg:border-r lg:min-w-[600px] h-[1000px]"
+    >
+      <div
+        id="backName"
+        className="z-20 pt-1 pb-1 bg-white/75 backdrop-blur-md  h-[53px] flex gap-7 left-0 items-center pl-4"
+      >
         <BiArrowBack size={26} className="" />
         <div className="flex flex-col">
           <h1 className="font-bold lg:text-lg xl:text-xl">Cliff Sanchez</h1>
@@ -48,11 +53,13 @@ const MainArea = () => {
           <p className="-ml-1.5">Los Angeles, CA</p>
           <BsLink45Deg size={22} />
           <a
-            href="https://next-portfolio-2023-neon.vercel.app/"
+            href="https://next-portfolio-2023-virid.vercel.app/"
             className="text-blue-600"
             target="_blank"
           >
-            <span className="-ml-1.5">next-portfolio-2023-neon.vercel.app</span>
+            <span className="-ml-1.5">
+              https://next-portfolio-2023-virid.vercel.app/
+            </span>
           </a>
         </div>
       </div>
